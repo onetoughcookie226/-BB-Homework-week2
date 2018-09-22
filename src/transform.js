@@ -1,6 +1,6 @@
 
 module.exports = {
-    groupAdultsByAgeRange: function() {
+    groupAdultsByAgeRange: function() {       
     }
 }    
 
@@ -24,31 +24,30 @@ const grouping = [
     { name: "oldd", age: 120 },
   ]
 
-
   
 var youngerThan20 = grouping.filter(function(a) {
     return a.age < 20
 })
-console.log(youngerThan20)
+// console.log(youngerThan20)
 
 var between21and30 = grouping.filter(function(a){
     return a.age >= 21 && a.age <= 30
 })
-console.log(between21and30)
+// console.log(between21and30)
 
 var between31and40 = grouping.filter(function(a){
     return a.age >= 31 && a.age <= 40
 })
-console.log(between31and40)
+// console.log(between31and40)
 
 var between41and50 = grouping.filter(function(a){
     return a.age >= 40 && a.age <= 50 
 })
-console.log(between41and50)
+// console.log(between41and50)
 
 var olderThan51 = grouping.filter (function(a) {
     return a.age >= 51
 })
-console.log(olderThan51 )
+// console.log(olderThan51 )
 
 

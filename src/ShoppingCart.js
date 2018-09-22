@@ -1,7 +1,9 @@
 //create a module named `ShoppingCart`. 
 //The module must export a `class`, as its default export!
 
-module.exports = class Cart {
+
+
+module.exports = class ShoppingCart {
     constructor(name, quantity, price) {
         // this.name = name;
         // this.quantity = quantity;
@@ -9,23 +11,23 @@ module.exports = class Cart {
         this.items = []
     }
     
-
     function addItem(name, quantity, price) {
-        this.items.push("")
+       return this.items.push()
     }
 
     getItems() {
         // console.log(this.items)
-        return this.items;
+        return this.items
     }
 
-  }
+    cart.clear() {
 
+    }
 
+}
 
   //Create new Cart instance
 //   const myCart = new Cart('', 2, 2);
-
 
 
 
