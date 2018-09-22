@@ -94,3 +94,4 @@ The app should be runnable simply by cloning the repository, installing dependen
 
    So, your fulfillment handler should double the string and the rejection handler should triple the string. The testing code will reject or resolve the provided `somePromise` with a string value, and inspect what your returned promise resolves with.
 # -BB-Homework-week2
+# mishmash-homework-week2
