@@ -3,11 +3,22 @@
 
 module.exports = class Cart {
     constructor(name, quantity, price) {
-        this.name = name;
-        this.quantity = quantity;
-        this.price = price;
+        // this.name = name;
+        // this.quantity = quantity;
+        // this.price = price;
+        this.items = []
     }
     
+
+    function addItem(name, quantity, price) {
+        this.items.push("")
+    }
+
+    getItems() {
+        // console.log(this.items)
+        return this.items;
+    }
+
   }
 
 
