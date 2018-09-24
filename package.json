@@ -11,5 +11,40 @@
   },
   "devDependencies": {
     "mocha": "^5.2.0"
-  }
+  },
+  "description": "This assignment covers the first week of the Intermediate Bootcamp. This repository contains 3 test files, each covering a single task. The order of the tasks does not matter. **You can complete them in any order.** Try to complete as many of them as you can.",
+  "dependencies": {
+    "balanced-match": "^1.0.0",
+    "browser-stdout": "^1.3.1",
+    "concat-map": "^0.0.1",
+    "debug": "^3.1.0",
+    "diff": "^3.5.0",
+    "brace-expansion": "^1.1.11",
+    "escape-string-regexp": "^1.0.5",
+    "fs.realpath": "^1.0.0",
+    "glob": "^7.1.2",
+    "he": "^1.1.1",
+    "inflight": "^1.0.6",
+    "inherits": "^2.0.3",
+    "minimatch": "^3.0.4",
+    "minimist": "^0.0.8",
+    "mkdirp": "^0.5.1",
+    "ms": "^2.0.0",
+    "once": "^1.4.0",
+    "path-is-absolute": "^1.0.1",
+    "supports-color": "^5.4.0",
+    "commander": "^2.15.1",
+    "wrappy": "^1.0.2",
+    "has-flag": "^3.0.0",
+    "growl": "^1.10.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onetoughcookie226/-BB-Homework-week2.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/onetoughcookie226/-BB-Homework-week2/issues"
+  },
+  "homepage": "https://github.com/onetoughcookie226/-BB-Homework-week2#readme"
 }
