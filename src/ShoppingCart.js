@@ -11,16 +11,27 @@ module.exports = class ShoppingCart {
         this.items = []
     }
     
-    function addItem(name, quantity, price) {
-       return this.items.push()
-    }
+    addItem(name, quantity, price) {
+
+        const newItem = {
+            name: name,
+            quantity: quantity,
+            pricePerUnit: price,
+        }
+    return this.items.push(newItem)
+    };
 
     getItems() {
         // console.log(this.items)
         return this.items
     }
 
-    cart.clear() {
+    clear() {
+        this.items= []
+
+    }
+    
+    total() {
 
     }
 
